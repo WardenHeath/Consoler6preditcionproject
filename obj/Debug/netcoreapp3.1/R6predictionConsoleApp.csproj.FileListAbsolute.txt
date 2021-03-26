@@ -1,0 +1,13 @@
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.exe
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.deps.json
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.runtimeconfig.json
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.runtimeconfig.dev.json
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.dll
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\bin\Debug\netcoreapp3.1\R6predictionConsoleApp.pdb
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.csprojAssemblyReference.cache
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.AssemblyInfoInputs.cache
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.AssemblyInfo.cs
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.dll
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.pdb
+C:\Users\AHeat\source\repos\R6predictionConsoleApp\R6predictionConsoleApp\obj\Debug\netcoreapp3.1\R6predictionConsoleApp.genruntimeconfig.cache
