@@ -1,0 +1,390 @@
+2021-03-22 18:03:44.5583 DEBUG Set log file path to C:\Users\AHeat\AppData\Local\Temp\MLVSTools\logs\c2d396d9-153b-428a-8257-b5f5791d7767.txt (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:37:47.7676 DEBUG C:\Users\AHeat\source\repos\R6predictionConsoleApp\Playerstatsedited.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:40:55.6073 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:41:18.5403 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:41:30.5886 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:41:31.7983 WARN GPU Service not found. Falling back to CPU AutoML Service. (Microsoft.ML.ModelBuilder.Utils.Logger.Warn)
+2021-03-23 10:41:33.8367 INFO |     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:36.2285 INFO |1    AveragedPerceptronOva                       0.5075         0.3498       1.7          1                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:37.1449 INFO |2    SdcaMaximumEntropyMulti                     0.5006         0.3447       0.9          2                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:38.5144 INFO |3    LightGbmMulti                               0.4945         0.3448       1.4          3                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:39.0853 INFO |4    SymbolicSgdLogisticRegressionOva            0.4994         0.3443       0.6          4                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:40.9510 INFO |5    FastTreeOva                                 0.4994         0.3519       1.9          5                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:41.4413 INFO |6    LinearSvmOva                                0.4925         0.3395       0.5          6                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:42.8764 INFO |7    LbfgsLogisticRegressionOva                  0.5030         0.3467       1.4          7                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:43.8420 INFO 
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: multiclass-classification                                                                              |
+|Dataset: C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv                                  |
+|Label : Result                                                                                                  |
+|Total experiment time : 8.3506771 Secs                                                                          |
+|Total number of models explored: 7                                                                              |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:43.8470 INFO |                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    AveragedPerceptronOva                       0.5075         0.3498       1.7          1                     |
+|2    LbfgsLogisticRegressionOva                  0.5030         0.3467       1.4          2                     |
+|3    SdcaMaximumEntropyMulti                     0.5006         0.3447       0.9          3                     |
+|4    SymbolicSgdLogisticRegressionOva            0.4994         0.3443       0.6          4                     |
+|5    FastTreeOva                                 0.4994         0.3519       1.9          5                     |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:49.7270 INFO Code Generated (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:41:59.5904 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:41:59.5933 DEBUG Disposing AutoMLService Client (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:41:59.5933 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:42:00.0279 INFO |     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:00.9901 INFO |1    AveragedPerceptronOva                       0.5111         0.3524       0.9          1                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:01.8435 INFO |2    SdcaMaximumEntropyMulti                     0.4990         0.3428       0.9          2                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:03.0176 INFO |3    LightGbmMulti                               0.4945         0.3448       1.2          3                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:03.5264 INFO |4    SymbolicSgdLogisticRegressionOva            0.4941         0.3414       0.5          4                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:05.2120 INFO |5    FastTreeOva                                 0.4994         0.3519       1.7          5                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:05.6974 INFO |6    LinearSvmOva                                0.5119         0.3529       0.5          6                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:07.0537 INFO |7    LbfgsLogisticRegressionOva                  0.5030         0.3467       1.4          7                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:08.4202 INFO |8    SgdCalibratedOva                            0.5107         0.3522       1.4          8                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:11.2235 INFO |9    FastForestOva                               0.5034         0.3509       2.8          9                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:12.7459 INFO |10   LbfgsMaximumEntropyMulti                    0.5099         0.3514       1.5         10                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:14.8973 INFO |11   AveragedPerceptronOva                       0.4783         0.3296       2.1         11                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:17.4650 INFO |12   LinearSvmOva                                0.5038         0.3474       2.6         12                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:18.2906 INFO |13   SgdCalibratedOva                            0.4925         0.3399       0.8         13                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:18.7633 INFO |14   AveragedPerceptronOva                       0.4840         0.3335       0.5         14                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:20.9392 INFO |15   LinearSvmOva                                0.5063         0.3490       2.2         15                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:22.2809 INFO |16   SgdCalibratedOva                            0.4929         0.3400       1.3         16                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:22.8150 INFO |17   AveragedPerceptronOva                       0.5103         0.3519       0.5         17                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:24.7180 INFO |18   LinearSvmOva                                0.5103         0.3518       1.9         18                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:25.3485 INFO |19   SgdCalibratedOva                            0.4921         0.3394       0.6         19                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:25.9347 INFO |20   AveragedPerceptronOva                       0.4739         0.3266       0.6         20                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:33.0418 INFO |21   LinearSvmOva                                0.5059         0.3488       7.1         21                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:34.5989 INFO |22   SgdCalibratedOva                            0.5022         0.3472       1.6         22                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:37.5176 INFO |23   AveragedPerceptronOva                       0.4877         0.3331       2.9         23                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:38.0678 INFO |24   LinearSvmOva                                0.4937         0.3403       0.5         24                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:39.5500 INFO |25   SgdCalibratedOva                            0.4949         0.3414       1.5         25                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:40.1348 INFO |26   AveragedPerceptronOva                       0.4945         0.3410       0.6         26                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:43.1327 INFO |27   LinearSvmOva                                0.5042         0.3477       3.0         27                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:44.0640 INFO |28   SgdCalibratedOva                            0.5042         0.3475       0.9         28                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:48.9050 INFO |29   AveragedPerceptronOva                       0.4868         0.3356       4.8         29                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:49.5764 INFO |30   LinearSvmOva                                0.5083         0.3504       0.7         30                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:49.9883 INFO |31   SgdCalibratedOva                            0.5051         0.3463       0.4         31                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:50.5667 INFO |32   AveragedPerceptronOva                       0.4949         0.3410       0.6         32                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:54.5045 INFO |33   LinearSvmOva                                0.4974         0.3429       3.9         33                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:55.1647 INFO |34   SgdCalibratedOva                            0.4897         0.3395       0.7         34                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:55.8069 INFO |35   AveragedPerceptronOva                       0.4933         0.3397       0.6         35                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:42:59.7011 INFO |36   LinearSvmOva                                0.5042         0.3476       3.9         36                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:43:00.0482 INFO |                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    LinearSvmOva                                0.5119         0.3529       0.5          1                     |
+|2    AveragedPerceptronOva                       0.5111         0.3524       0.9          2                     |
+|3    SgdCalibratedOva                            0.5107         0.3522       1.4          3                     |
+|4    AveragedPerceptronOva                       0.5103         0.3519       0.5          4                     |
+|5    LinearSvmOva                                0.5103         0.3518       1.9          5                     |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:43:00.0482 INFO 
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: multiclass-classification                                                                              |
+|Dataset: C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv                                  |
+|Label : Result                                                                                                  |
+|Total experiment time : 59.5622923 Secs                                                                         |
+|Total number of models explored: 36                                                                             |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:43:03.0057 INFO Code Generated (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:43:21.1352 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:43:40.8363 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:43:41.1386 DEBUG Specified label column 'Player_rating' was not found.
+   at Microsoft.ML.AutoML.ColumnTypeInference.GetAndValidateLabelColumn(Arguments args, IntermediateColumn[] cols)
+   at Microsoft.ML.AutoML.ColumnTypeInference.InferTextFileColumnTypesCore(MLContext context, IMultiStreamSource fileSource, Arguments args)
+   at Microsoft.ML.AutoML.ColumnInferenceApi.InferColumnTypes(MLContext context, TextFileSample sample, ColumnSplitResult splitInference, Boolean hasHeader, Nullable`1 labelColumnIndex, String label)
+   at Microsoft.ML.AutoML.ColumnInferenceApi.InferColumns(MLContext context, String path, ColumnInformation columnInfo, Nullable`1 separatorChar, Nullable`1 allowQuotedStrings, Nullable`1 supportSparse, Boolean trimWhitespace, Boolean groupColumns, Boolean hasHeader)
+   at Microsoft.ML.ModelBuilder.AutoMLEngine.InferColumns(MLContext context, AutoMLServiceParamater config, ColumnInformation columnInformation)
+   at Microsoft.ML.ModelBuilder.AutoMLEngine.<StartTrainingAsync>d__30.MoveNext() in /_/src/Microsoft.ML.ModelBuilder.AutoMLService/AutoMLEngineService/AutoMLEngine.cs:line 112 (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:43:57.5020 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:44:15.6015 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:44:15.8410 DEBUG Specified column Player_rating is not found in the dataset.
+   at Microsoft.ML.AutoML.ColumnInferenceValidationUtil.ValidateSpecifiedColumnsExist(ColumnInformation columnInfo, IDataView dataView)
+   at Microsoft.ML.AutoML.ColumnInferenceApi.InferColumns(MLContext context, String path, ColumnInformation columnInfo, Boolean hasHeader, ColumnSplitResult splitInference, InferenceResult typeInference, Boolean trimWhitespace, Boolean groupColumns)
+   at Microsoft.ML.AutoML.ColumnInferenceApi.InferColumns(MLContext context, String path, ColumnInformation columnInfo, Nullable`1 separatorChar, Nullable`1 allowQuotedStrings, Nullable`1 supportSparse, Boolean trimWhitespace, Boolean groupColumns, Boolean hasHeader)
+   at Microsoft.ML.ModelBuilder.AutoMLEngine.InferColumns(MLContext context, AutoMLServiceParamater config, ColumnInformation columnInformation)
+   at Microsoft.ML.ModelBuilder.AutoMLEngine.<StartTrainingAsync>d__30.MoveNext() in /_/src/Microsoft.ML.ModelBuilder.AutoMLService/AutoMLEngineService/AutoMLEngine.cs:line 112 (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:44:33.8835 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:44:34.3569 INFO |     Trainer                             RSquared Absolute-loss Squared-loss RMS-loss  Duration #Iteration      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:35.0939 INFO |1    SdcaRegression                        0.8066          0.05         0.00     0.06       0.7          1      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:35.9803 INFO |2    LightGbmRegression                    0.8414          0.05         0.00     0.06       0.9          2      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:36.6373 INFO |3    FastTreeRegression                    0.8417          0.05         0.00     0.06       0.7          3      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:37.3622 INFO |4    FastTreeTweedieRegression             0.8388          0.05         0.00     0.06       0.7          4      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:38.0967 INFO |5    FastForestRegression                  0.6791          0.07         0.01     0.08       0.7          5      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:38.7124 INFO |6    LbfgsPoissonRegression                0.7333          0.06         0.01     0.08       0.6          6      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:39.0184 INFO |7    OnlineGradientDescentRegression       0.5883          0.07         0.01     0.09       0.3          7      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:39.4382 INFO |8    OlsRegression                         0.8101          0.05         0.00     0.06       0.4          8      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:40.4105 INFO |9    LightGbmRegression                    0.8407          0.05         0.00     0.06       1.0          9      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:40.8908 INFO |10   FastTreeRegression                   -9.8518          0.47         0.24     0.49       0.5         10      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:41.2445 INFO |11   FastTreeTweedieRegression             0.5135          0.08         0.01     0.10       0.4         11      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:42.2518 INFO |12   LightGbmRegression                    0.8357          0.05         0.00     0.06       1.0         12      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:43.4516 INFO |13   FastTreeRegression                   -8.3713          0.44         0.20     0.45       1.2         13      | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:44.3512 INFO 
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: regression                                                                                             |
+|Dataset: C:\Users\AHeat\Downloads\Untitled spreadsheet - Playerstatsedited.csv                                  |
+|Label : KOST                                                                                                    |
+|Total experiment time : 9.0123773 Secs                                                                          |
+|Total number of models explored: 13                                                                             |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:44.3512 INFO |                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                             RSquared Absolute-loss Squared-loss RMS-loss  Duration #Iteration      |
+|1    FastTreeRegression                    0.8417          0.05         0.00     0.06       0.7          1      |
+|2    LightGbmRegression                    0.8414          0.05         0.00     0.06       0.9          2      |
+|3    LightGbmRegression                    0.8407          0.05         0.00     0.06       1.0          3      |
+|4    FastTreeTweedieRegression             0.8388          0.05         0.00     0.06       0.7          4      |
+|5    LightGbmRegression                    0.8357          0.05         0.00     0.06       1.0          5      |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:44:47.2634 INFO Code Generated (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 10:45:05.1626 DEBUG Could not find input column 'Player rating'
+Parameter name: inputSchema
+   at Microsoft.ML.Data.ColumnConcatenatingTransformer.Mapper.MakeColumn(DataViewSchema inputSchema, Int32 iinfo)
+   at Microsoft.ML.Data.ColumnConcatenatingTransformer.Mapper..ctor(ColumnConcatenatingTransformer parent, DataViewSchema inputSchema)
+   at Microsoft.ML.Data.ColumnConcatenatingTransformer.MakeRowMapper(DataViewSchema inputSchema)
+   at Microsoft.ML.Data.RowToRowTransformerBase.GetOutputSchema(DataViewSchema inputSchema)
+   at Microsoft.ML.Data.TransformerChain`1.GetOutputSchema(DataViewSchema inputSchema)
+   at Microsoft.ML.Data.TransformerChain`1.Transform(IDataView input)
+   at Microsoft.ML.ModelBuilder.AutoMLService.PredictEngine.<PredictRegressionAsync>d__13.MoveNext() in /_/src/Microsoft.ML.ModelBuilder.AutoMLService/PredictEngine.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ML.ModelBuilder.AutoMLEngine.<PredictRegressionAsync>d__33.MoveNext() in /_/src/Microsoft.ML.ModelBuilder.AutoMLService/AutoMLEngineService/AutoMLEngine.cs:line 215 (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:45:28.0023 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 10:45:28.0023 DEBUG Disposing AutoMLService Client (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:35:43.3941 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - PlayerstatsforWinloss.csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:35:54.8780 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:35:54.9775 INFO |     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:55.9193 INFO |1    AveragedPerceptronOva                       0.5239         0.5240       0.7          1                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:56.2890 INFO |2    SdcaMaximumEntropyMulti                     0.5202         0.5193       0.4          2                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:57.1146 INFO |3    LightGbmMulti                               0.5315         0.5314       0.8          3                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:57.4238 INFO |4    SymbolicSgdLogisticRegressionOva            0.5273         0.5274       0.3          4                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:58.4400 INFO |5    FastTreeOva                                 0.5243         0.5243       1.0          5                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:58.7525 INFO |6    LinearSvmOva                                0.5235         0.5236       0.3          6                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:35:59.2767 INFO |7    LbfgsLogisticRegressionOva                  0.5273         0.5274       0.5          7                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:00.2088 INFO |8    SgdCalibratedOva                            0.5256         0.5268       0.9          8                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:01.8560 INFO |9    FastForestOva                               0.5189         0.5187       1.6          9                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:02.2447 INFO |10   LbfgsMaximumEntropyMulti                    0.5269         0.5269       0.4         10                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:03.2411 INFO |11   LightGbmMulti                               0.5239         0.5239       1.0         11                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:03.5423 INFO |12   SymbolicSgdLogisticRegressionOva            0.5202         0.5204       0.3         12                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:04.1630 INFO |13   LbfgsLogisticRegressionOva                  0.5248         0.5249       0.6         13                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:04.9572 INFO |14   LightGbmMulti                               0.5214         0.5213       0.8         14                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:05.2494 INFO |15   SymbolicSgdLogisticRegressionOva            0.5122         0.5104       0.3         15                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:05.6307 INFO |16   LbfgsLogisticRegressionOva                  0.5239         0.5240       0.4         16                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:06.4759 INFO |17   LightGbmMulti                               0.5256         0.5255       0.8         17                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:06.7811 INFO |18   SymbolicSgdLogisticRegressionOva            0.5285         0.5286       0.3         18                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:07.3544 INFO |19   LbfgsLogisticRegressionOva                  0.5235         0.5236       0.6         19                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:07.8478 INFO |20   LightGbmMulti                               0.5336         0.5332       0.5         20                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:08.1427 INFO |21   SymbolicSgdLogisticRegressionOva            0.5126         0.5137       0.3         21                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:08.7374 INFO |22   LbfgsLogisticRegressionOva                  0.5243         0.5244       0.6         22                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:09.5479 INFO |23   LightGbmMulti                               0.5202         0.5201       0.8         23                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:09.8292 INFO |24   SymbolicSgdLogisticRegressionOva            0.5109         0.5091       0.3         24                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:10.1733 INFO |25   LbfgsLogisticRegressionOva                  0.5277         0.5278       0.3         25                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:10.8519 INFO |26   LightGbmMulti                               0.5323         0.5323       0.7         26                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:11.1610 INFO |27   SymbolicSgdLogisticRegressionOva            0.5243         0.5247       0.3         27                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:11.8343 INFO |28   LbfgsLogisticRegressionOva                  0.5227         0.5227       0.7         28                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:12.3639 INFO |29   LightGbmMulti                               0.5315         0.5314       0.5         29                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:12.6401 INFO |30   SymbolicSgdLogisticRegressionOva            0.5197         0.5186       0.3         30                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:13.0220 INFO |31   LbfgsLogisticRegressionOva                  0.5294         0.5295       0.4         31                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:13.7831 INFO |32   LightGbmMulti                               0.5227         0.5226       0.8         32                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:14.1013 INFO |33   SymbolicSgdLogisticRegressionOva            0.5298         0.5297       0.3         33                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:14.4571 INFO |34   LbfgsLogisticRegressionOva                  0.5269         0.5270       0.4         34                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:15.3338 INFO |35   LightGbmMulti                               0.5151         0.5150       0.9         35                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:15.6130 INFO |36   SymbolicSgdLogisticRegressionOva            0.5088         0.5071       0.3         36                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:15.9952 INFO |37   LbfgsLogisticRegressionOva                  0.5239         0.5241       0.4         37                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:16.5615 INFO |38   LightGbmMulti                               0.5319         0.5316       0.6         38                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:16.8438 INFO |39   SymbolicSgdLogisticRegressionOva            0.5281         0.5282       0.3         39                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:17.2010 INFO |40   LbfgsLogisticRegressionOva                  0.5294         0.5296       0.4         40                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:18.3631 INFO |41   LightGbmMulti                               0.5353         0.5352       1.2         41                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:18.6374 INFO |42   SymbolicSgdLogisticRegressionOva            0.5172         0.5161       0.3         42                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:19.3774 INFO |43   LbfgsLogisticRegressionOva                  0.5231         0.5232       0.7         43                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:20.9428 INFO |44   LightGbmMulti                               0.5189         0.5189       1.6         44                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:21.2129 INFO |45   SymbolicSgdLogisticRegressionOva            0.5260         0.5259       0.3         45                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:21.5334 INFO |46   LbfgsLogisticRegressionOva                  0.5273         0.5272       0.3         46                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:22.1063 INFO |47   LightGbmMulti                               0.5269         0.5268       0.6         47                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:22.4085 INFO |48   SymbolicSgdLogisticRegressionOva            0.4979         0.5000       0.3         48                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:22.7650 INFO |49   LbfgsLogisticRegressionOva                  0.5315         0.5316       0.4         49                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:24.5354 INFO |50   LightGbmMulti                               0.5084         0.5084       1.8         50                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:24.8176 INFO |51   SymbolicSgdLogisticRegressionOva            0.5059         0.5044       0.3         51                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:25.4942 INFO |52   LbfgsLogisticRegressionOva                  0.5256         0.5257       0.7         52                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:26.0521 INFO |53   LightGbmMulti                               0.5319         0.5317       0.6         53                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:26.3523 INFO |54   SymbolicSgdLogisticRegressionOva            0.5223         0.5216       0.3         54                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:26.7394 INFO |55   LbfgsLogisticRegressionOva                  0.5273         0.5274       0.4         55                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:27.4152 INFO |56   LightGbmMulti                               0.5151         0.5151       0.7         56                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:27.7173 INFO |57   SymbolicSgdLogisticRegressionOva            0.5256         0.5255       0.3         57                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:28.2701 INFO |58   LbfgsLogisticRegressionOva                  0.5227         0.5227       0.6         58                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:28.9957 INFO |59   LightGbmMulti                               0.5290         0.5288       0.7         59                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:29.2712 INFO |60   SymbolicSgdLogisticRegressionOva            0.5172         0.5180       0.3         60                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:29.8789 INFO |61   LbfgsLogisticRegressionOva                  0.5256         0.5257       0.6         61                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:30.6985 INFO |62   LightGbmMulti                               0.5193         0.5191       0.8         62                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:30.9817 INFO |63   SymbolicSgdLogisticRegressionOva            0.5122         0.5104       0.3         63                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:31.7051 INFO |64   LbfgsLogisticRegressionOva                  0.5269         0.5269       0.7         64                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:32.7114 INFO |65   LightGbmMulti                               0.5105         0.5105       1.0         65                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:32.9957 INFO |66   SymbolicSgdLogisticRegressionOva            0.5126         0.5109       0.3         66                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:33.5466 INFO |67   LbfgsLogisticRegressionOva                  0.5231         0.5232       0.5         67                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:35.6188 INFO |68   LightGbmMulti                               0.5223         0.5223       2.1         68                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:35.9260 INFO |69   SymbolicSgdLogisticRegressionOva            0.5034         0.5013       0.3         69                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:36.2982 INFO |70   LbfgsLogisticRegressionOva                  0.5281         0.5283       0.4         70                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:37.6694 INFO |71   LightGbmMulti                               0.5311         0.5308       1.4         71                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:38.2406 INFO |72   SymbolicSgdLogisticRegressionOva            0.5155         0.5161       0.6         72                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:39.2554 INFO |73   LbfgsLogisticRegressionOva                  0.5281         0.5283       1.0         73                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:40.7398 INFO |74   LightGbmMulti                               0.5248         0.5244       1.5         74                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:41.3050 INFO |75   SymbolicSgdLogisticRegressionOva            0.5021         0.5000       0.6         75                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:42.3235 INFO |76   LbfgsLogisticRegressionOva                  0.5273         0.5274       1.0         76                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:43.6692 INFO |77   LightGbmMulti                               0.5243         0.5242       1.3         77                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:44.2869 INFO |78   SymbolicSgdLogisticRegressionOva            0.5252         0.5255       0.6         78                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:45.4545 INFO |79   LbfgsLogisticRegressionOva                  0.5239         0.5240       1.2         79                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:46.9550 INFO |80   LightGbmMulti                               0.5223         0.5222       1.5         80                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:47.5398 INFO |81   SymbolicSgdLogisticRegressionOva            0.5311         0.5307       0.6         81                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:48.5467 INFO |82   LbfgsLogisticRegressionOva                  0.5252         0.5253       1.0         82                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:49.9933 INFO |83   LightGbmMulti                               0.5323         0.5321       1.4         83                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:50.6127 INFO |84   SymbolicSgdLogisticRegressionOva            0.5306         0.5305       0.6         84                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:51.6438 INFO |85   LbfgsLogisticRegressionOva                  0.5285         0.5287       1.0         85                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:52.9572 INFO |86   LightGbmMulti                               0.5399         0.5396       1.3         86                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:53.5616 INFO |87   SymbolicSgdLogisticRegressionOva            0.5298         0.5298       0.6         87                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:54.5878 INFO |88   LbfgsLogisticRegressionOva                  0.5239         0.5241       1.0         88                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:54.9947 INFO 
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: multiclass-classification                                                                              |
+|Dataset: C:\Users\AHeat\Downloads\Untitled spreadsheet - PlayerstatsforWinloss.csv                              |
+|Label : Result                                                                                                  |
+|Total experiment time : 59.1093641 Secs                                                                         |
+|Total number of models explored: 88                                                                             |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:54.9947 INFO |                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    LightGbmMulti                               0.5399         0.5396       1.3          1                     |
+|2    LightGbmMulti                               0.5353         0.5352       1.2          2                     |
+|3    LightGbmMulti                               0.5336         0.5332       0.5          3                     |
+|4    LightGbmMulti                               0.5323         0.5323       0.7          4                     |
+|5    LightGbmMulti                               0.5323         0.5321       1.4          5                     |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:36:58.7715 INFO Code Generated (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:38:11.6831 DEBUG Predicted value: Win (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:45:19.0313 DEBUG C:\Users\AHeat\Downloads\Untitled spreadsheet - PlayerstatsforWinloss (1).csv (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:45:32.4527 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:45:32.7006 INFO |     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:33.5023 INFO |1    AveragedPerceptronOva                       0.5176         0.3591       0.8          1                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:33.9219 INFO |2    SdcaMaximumEntropyMulti                     0.4966         0.3438       0.4          2                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:34.9115 INFO |3    LightGbmMulti                               0.4897         0.3427       1.0          3                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:35.2506 INFO |4    SymbolicSgdLogisticRegressionOva            0.5120         0.3552       0.3          4                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:36.6547 INFO |5    FastTreeOva                                 0.4856         0.3431       1.4          5                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:37.0179 INFO |6    LinearSvmOva                                0.4897         0.3396       0.4          6                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:37.8445 INFO |7    LbfgsLogisticRegressionOva                  0.5103         0.3540       0.8          7                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:38.9987 INFO |8    SgdCalibratedOva                            0.4986         0.3457       1.2          8                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:41.3575 INFO |9    FastForestOva                               0.5055         0.3666       2.4          9                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:42.4357 INFO |10   LbfgsMaximumEntropyMulti                    0.5079         0.3523       1.1         10                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:45.8512 INFO |11   AveragedPerceptronOva                       0.4901         0.3401       3.4         11                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:46.1833 INFO |12   SymbolicSgdLogisticRegressionOva            0.5002         0.3469       0.3         12                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:46.9435 INFO |13   LbfgsLogisticRegressionOva                  0.5099         0.3537       0.8         13                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:49.2940 INFO |14   AveragedPerceptronOva                       0.4933         0.3428       2.3         14                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:49.6112 INFO |15   SymbolicSgdLogisticRegressionOva            0.4864         0.3361       0.3         15                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:50.0653 INFO |16   LbfgsLogisticRegressionOva                  0.5067         0.3515       0.5         16                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:50.5170 INFO |17   AveragedPerceptronOva                       0.4779         0.3333       0.4         17                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:50.9209 INFO |18   SymbolicSgdLogisticRegressionOva            0.4876         0.3370       0.4         18                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:51.7611 INFO |19   LbfgsLogisticRegressionOva                  0.5083         0.3526       0.8         19                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:55.9154 INFO |20   AveragedPerceptronOva                       0.4617         0.3204       4.2         20                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:56.2182 INFO |21   SymbolicSgdLogisticRegressionOva            0.4828         0.3338       0.3         21                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:57.0075 INFO |22   LbfgsLogisticRegressionOva                  0.5091         0.3532       0.8         22                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:57.7692 INFO |23   AveragedPerceptronOva                       0.4832         0.3352       0.8         23                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:58.1502 INFO |24   SymbolicSgdLogisticRegressionOva            0.4844         0.3349       0.4         24                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:58.5922 INFO |25   LbfgsLogisticRegressionOva                  0.5059         0.3509       0.4         25                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:59.0497 INFO |26   AveragedPerceptronOva                       0.4937         0.3424       0.5         26                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:59.4386 INFO |27   SymbolicSgdLogisticRegressionOva            0.5095         0.3536       0.4         27                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:45:59.8764 INFO |28   LbfgsLogisticRegressionOva                  0.5099         0.3537       0.4         28                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:00.2265 INFO |29   AveragedPerceptronOva                       0.5055         0.3505       0.3         29                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:00.6314 INFO |30   SymbolicSgdLogisticRegressionOva            0.4852         0.3355       0.4         30                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:01.4734 INFO |31   LbfgsLogisticRegressionOva                  0.5103         0.3540       0.8         31                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:02.0402 INFO |32   AveragedPerceptronOva                       0.5030         0.3489       0.6         32                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:02.3574 INFO |33   SymbolicSgdLogisticRegressionOva            0.4767         0.3293       0.3         33                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:02.8471 INFO |34   LbfgsLogisticRegressionOva                  0.5055         0.3506       0.5         34                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:04.0922 INFO |35   AveragedPerceptronOva                       0.4953         0.3436       1.2         35                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:04.4426 INFO |36   SymbolicSgdLogisticRegressionOva            0.5083         0.3527       0.4         36                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:05.1630 INFO |37   LbfgsLogisticRegressionOva                  0.5099         0.3537       0.7         37                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:07.5182 INFO |38   AveragedPerceptronOva                       0.4889         0.3393       2.4         38                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:07.8667 INFO |39   SymbolicSgdLogisticRegressionOva            0.4945         0.3423       0.3         39                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:08.6187 INFO |40   LbfgsLogisticRegressionOva                  0.5079         0.3523       0.7         40                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:09.1819 INFO |41   AveragedPerceptronOva                       0.4807         0.3345       0.6         41                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:09.5300 INFO |42   SymbolicSgdLogisticRegressionOva            0.4917         0.3400       0.3         42                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:09.9979 INFO |43   LbfgsLogisticRegressionOva                  0.5055         0.3507       0.5         43                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:10.4007 INFO |44   AveragedPerceptronOva                       0.4828         0.3346       0.4         44                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:10.7607 INFO |45   SymbolicSgdLogisticRegressionOva            0.5063         0.3513       0.4         45                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:11.5055 INFO |46   LbfgsLogisticRegressionOva                  0.5079         0.3523       0.7         46                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:14.3634 INFO |47   AveragedPerceptronOva                       0.4779         0.3333       2.9         47                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:14.7613 INFO |48   SymbolicSgdLogisticRegressionOva            0.5018         0.3479       0.4         48                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:15.7760 INFO |49   LbfgsLogisticRegressionOva                  0.5111         0.3545       1.0         49                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:16.5077 INFO |50   AveragedPerceptronOva                       0.4945         0.3431       0.7         50                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:16.8633 INFO |51   SymbolicSgdLogisticRegressionOva            0.4836         0.3344       0.4         51                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:17.7461 INFO |52   LbfgsLogisticRegressionOva                  0.5099         0.3537       0.9         52                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:18.1756 INFO |53   AveragedPerceptronOva                       0.5030         0.3491       0.4         53                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:18.6132 INFO |54   SymbolicSgdLogisticRegressionOva            0.5063         0.3514       0.4         54                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:19.4351 INFO |55   LbfgsLogisticRegressionOva                  0.5103         0.3540       0.8         55                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:20.1135 INFO |56   AveragedPerceptronOva                       0.4783         0.3315       0.7         56                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:20.5294 INFO |57   SymbolicSgdLogisticRegressionOva            0.4893         0.3380       0.4         57                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:21.0182 INFO |58   LbfgsLogisticRegressionOva                  0.5030         0.3489       0.5         58                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:21.8045 INFO |59   AveragedPerceptronOva                       0.4909         0.3400       0.8         59                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:22.1613 INFO |60   SymbolicSgdLogisticRegressionOva            0.4868         0.3361       0.4         60                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:22.6692 INFO |61   LbfgsLogisticRegressionOva                  0.5063         0.3512       0.5         61                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:23.0674 INFO |62   AveragedPerceptronOva                       0.4852         0.3364       0.4         62                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:23.4215 INFO |63   SymbolicSgdLogisticRegressionOva            0.4836         0.3333       0.4         63                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:23.9081 INFO |64   LbfgsLogisticRegressionOva                  0.5095         0.3534       0.5         64                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:24.8871 INFO |65   AveragedPerceptronOva                       0.4864         0.3376       1.0         65                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:25.2092 INFO |66   SymbolicSgdLogisticRegressionOva            0.5051         0.3502       0.3         66                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:26.0993 INFO |67   LbfgsLogisticRegressionOva                  0.5095         0.3534       0.9         67                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:26.4695 INFO |68   AveragedPerceptronOva                       0.4799         0.3329       0.4         68                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:26.8255 INFO |69   SymbolicSgdLogisticRegressionOva            0.4961         0.3440       0.4         69                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:27.7137 INFO |70   LbfgsLogisticRegressionOva                  0.5083         0.3526       0.9         70                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:28.7223 INFO |71   AveragedPerceptronOva                       0.4880         0.3385       1.0         71                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:29.3931 INFO |72   SymbolicSgdLogisticRegressionOva            0.5079         0.3525       0.7         72                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:30.5176 INFO |73   LbfgsLogisticRegressionOva                  0.5079         0.3523       1.1         73                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:31.5273 INFO |74   AveragedPerceptronOva                       0.4828         0.3351       1.0         74                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:32.1625 INFO |75   SymbolicSgdLogisticRegressionOva            0.5047         0.3497       0.6         75                     | (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:32.7160 INFO 
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: multiclass-classification                                                                              |
+|Dataset: C:\Users\AHeat\Downloads\Untitled spreadsheet - PlayerstatsforWinloss (1).csv                          |
+|Label : Result                                                                                                  |
+|Total experiment time : 59.2078744 Secs                                                                         |
+|Total number of models explored: 75                                                                             |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:32.7160 INFO |                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    AveragedPerceptronOva                       0.5176         0.3591       0.8          1                     |
+|2    SymbolicSgdLogisticRegressionOva            0.5120         0.3552       0.3          2                     |
+|3    LbfgsLogisticRegressionOva                  0.5111         0.3545       1.0          3                     |
+|4    LbfgsLogisticRegressionOva                  0.5103         0.3540       0.8          4                     |
+|5    LbfgsLogisticRegressionOva                  0.5103         0.3540       0.8          5                     |
+------------------------------------------------------------------------------------------------------------------
+ (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:46:35.6265 INFO Code Generated (Microsoft.ML.ModelBuilder.Utils.Logger.Info)
+2021-03-23 13:49:23.9402 DEBUG Predicted value: Win (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:50:55.1137 DEBUG Microsoft.ML hasn't been installed (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:51:55.0509 DEBUG Disposing TrainSession (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
+2021-03-23 13:51:55.0509 DEBUG Disposing AutoMLService Client (Microsoft.ML.ModelBuilder.Utils.Logger.Debug)
