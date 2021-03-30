@@ -27,7 +27,7 @@ namespace KostPredictionML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\AHeat\AppData\Local\Temp\MLVSTools\KostPredictionML\KostPredictionML.Model\MLModel.zip";
+            string modelPath = @"C:\prediction\KostPrediction\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
