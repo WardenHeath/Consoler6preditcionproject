@@ -1,14 +1,50 @@
 ﻿using System;
 using System.Diagnostics;
+using static System.Console;
 namespace R6predictionConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number to choose a option: ");
-            Menu();
+            Title = "R6 Prediction";
+            RunMainMenu();
 
+
+
+        }
+        static public void RunMainMenu()
+        {
+            string prompt = "Use arrowkeys to select and enter to choose an option....";
+            string[] options = { "Win prediction", "KOST prediction", "About", "Exit" };
+            Menu mainMenu = new Menu(prompt, options);
+            int SelectedIndex = mainMenu.Run();
+
+            if (SelectedIndex == 0)
+            {
+                Clear();
+                WriteLine("\nLaunching Win prediction...");
+                winPrediction();
+            }
+            else if (SelectedIndex == 1)
+            {
+                Clear();
+                WriteLine("\nLaunching Kost prediction...");
+                KostPrediction();
+
+            }
+            else if (SelectedIndex == 2)
+            {
+                Clear();
+                WriteLine(@"Nothing here yet...
+ Press anything to return to menu...");
+                ReadKey(true);
+                RunMainMenu();
+            }
+            else if (SelectedIndex == 3)
+            {
+                Environment.Exit(0);
+            }
         }
         //CSV structure is as follows:
         //name,Player,Rating,K,D,OK,OD,Kost,KPR,SRV,1vx,Plants,hs(%),atk,def,teamnumber,result,map
@@ -16,40 +52,6 @@ namespace R6predictionConsoleApp
         //K,D,KPR,SRV,Result,Map
         //when entering for KOST prediction
         //K,D,KPR,SRV,Result,Map
-        static void Menu()
-        {
-            Console.Clear();
-            Console.WriteLine("1. Win predection with basic stats");
-            Console.WriteLine("2. Kost predection");
-            Console.WriteLine("3. Menu");
-            Console.WriteLine("4. Exit");
-            Console.WriteLine("Enter: ");
-            int UserChoice = int.Parse(Console.ReadLine());
-            if (UserChoice == 1)
-            {
-                Console.Clear();
-
-                Console.WriteLine("\nLaunching Win prediction...");
-                winPrediction();
-
-            } else if (UserChoice == 2) { 
-                
-                Console.WriteLine("\nLaunching Kost prediction...");
-                KostPrediction();
-                
-            }
-            else if (UserChoice == 3)
-            {
-                Menu();
-            }else if (UserChoice == 4)
-            {
-                Environment.Exit(0);
-            }
-            else
-            {
-                Menu();
-            }
-        }
 
         private static void winPrediction()
         {
@@ -58,7 +60,7 @@ namespace R6predictionConsoleApp
             Process.Start("C:\\prediction\\WinPrediction\\Winprediction.exe").WaitForExit();
             Console.WriteLine("\nPress anything to return to menu");
             Console.ReadKey();
-            Menu();
+            RunMainMenu();
         }
 
         private static void KostPrediction()
@@ -66,7 +68,7 @@ namespace R6predictionConsoleApp
             Process.Start("C:\\prediction\\KostPrediction\\Kostprediction.exe").WaitForExit();
             Console.WriteLine("\nPress anything to return to menu"); 
             Console.ReadKey();
-            Menu();
+            RunMainMenu();
         }
     }
 }
