@@ -12,8 +12,7 @@ the kost prediction was around 70% accurate, which isnt great but bearing in min
 ## INSTALL
 to use the program atm you need to:
 1. put the prediction folder on your C drive
-2. Run the program from the debug folder 
-3. thats it
+2. Run the exe in the netcoreapp folder
 
 
-There is no error checking atm and the code is a bit janky but it works for the most part 
+
